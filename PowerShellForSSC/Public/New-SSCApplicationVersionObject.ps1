@@ -47,12 +47,12 @@ function New-SSCApplicationVersionObject
             New-SSCAttributeObject -AttributeDefinitionId 1 -Value "High"
         )
         # Create the ApplicationVersionObject - creates a new application AND version
-        $appVerObject = New-SSCApplicationVersionObject -ApplicationName "Test" -Name "1.0" -Description "its description" `
+        $appVerObject = New-SSCApplicationVersionObject -ApplicationName "Test" -Name "1.0" -Description "its description"
             -IssueTemplateId "Prioritized-HighRisk-Project-Template" -Attributes $attributes
         # Copy an existing application version
         $AppId = Get-SSCApplicationId -ApplicationName "Test"
         $VerId = Get-SSCApplicationVersionId -ApplicationName "Test" -VersionName "1.0"
-        $appVerObject = New-SSCApplicationVersionObject -ApplicationId $AppId -Name "2.0" -Description "its description" `
+        $appVerObject = New-SSCApplicationVersionObject -ApplicationId $AppId -Name "2.0" -Description "its description"
             -IssueTemplateId "Prioritized-HighRisk-Project-Template" -Attributes $attributes -CopyData -CopyState -CopyVersionId $VerId
     .FUNCTIONALITY
         Fortify Software Security Center

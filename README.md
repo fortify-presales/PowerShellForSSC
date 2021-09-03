@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/egkljq9ok9xhvnhh?svg=true)](https://ci.appveyor.com/project/akevinlee/powershellforssc)
+[![Build status](https://ci.appveyor.com/api/projects/status/pn4wqbqxwfwlc8vc?svg=true)](https://ci.appveyor.com/project/akevinlee/powershellforssc)
 
 # PowerShell for Fortify Software Security Center (SSC) Module
 

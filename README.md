@@ -68,6 +68,7 @@ Get-SSCApplications -FullTextSearch -Query "test" | Out-GridView
 PowerShellForSSC has been tested on PowerShell 5.x (Windows) and PowerShell Core 7.x (Linux).
 On Windows it should work on any PowerShell version later than 5.x - however if you find any problems
 please raise an [issue](https://github.com/fortify-community-plugins/PowerShellForSSC/issues).
+
 ----------
 
 ## Developing and Contributing

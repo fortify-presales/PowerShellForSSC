@@ -105,7 +105,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'MicroFocus','Fortify','SSC','Software Security Center','Security','DevOps','DevSecOps'
+        Tags = 'MicroFocus','Fortify','SSC','Security','DevOps','DevSecOps'
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/fortify-community-plugins/PowerShellForSSC/blob/master/LICENSE'

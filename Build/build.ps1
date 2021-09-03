@@ -54,12 +54,12 @@ else {
     }
 
     # Create new markdown and XML help files
-    Write-Host "Building new function documentation" -ForegroundColor Yellow
-    Import-Module -Name "$PSScriptRoot\..\$PowerShellForSSC" -Force
-    New-MarkdownHelp -Module $PowerShellForSSC -OutputFolder '..\docs\' -Force
-    New-ExternalHelp -Path '..\docs\' -OutputPath "..\$PowerShellForSSC\en-US\" -Force
-    . .\Build\docs.ps1
-    Write-Host -Object ''
+    #Write-Host "Building new function documentation" -ForegroundColor Yellow
+    #Import-Module -Name "$PSScriptRoot\..\$PowerShellForSSC" -Force
+    #New-MarkdownHelp -Module $PowerShellForSSC -OutputFolder '..\docs\' -Force
+    #New-ExternalHelp -Path '..\docs\' -OutputPath "..\$PowerShellForSSC\en-US\" -Force
+    #. .\Build\docs.ps1
+    #Write-Host -Object ''
 
     if ($SkipPublishing) {
         Write-Host "Skipping Publishing to Powershell Gallery"

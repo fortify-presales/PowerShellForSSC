@@ -1,0 +1,8 @@
+# Default ignored files
+.idea
+*.iml
+*.fpr
+.fortify/
+/target/
+/.classpath
+/.project

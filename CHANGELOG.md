@@ -12,6 +12,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 
+### Removed
+
+## [1.0.0.3] - 2020-09-06
+
+### Added
+
+- Added Get Issues for Application Version (Get-SSCApplicationVersionIssues)
+
+### Changed
+
+- None
+
+### Removed
+
+- None
+
 ## [1.0.0.2] - 2020-09-06
 
 ### Added

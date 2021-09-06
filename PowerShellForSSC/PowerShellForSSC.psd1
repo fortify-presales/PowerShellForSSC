@@ -12,7 +12,7 @@
 RootModule = 'PowerShellForSSC.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.1.0.2'
+ModuleVersion = '1.1.0.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -72,14 +72,13 @@ PowerShellVersion = '5.1'
 FunctionsToExport = @('Add-SSCApplicationVersion', 'Approve-SSCArtifacts', 
                'Get-SSCApplication', 'Get-SSCApplicationId', 'Get-SSCApplications', 
                'Get-SSCApplicationVersion', 'Get-SSCApplicationVersionArtifacts', 
-               'Get-SSCApplicationVersionId', 'Get-SSCApplicationVersions',
-'Get-SSCApplicationVersionIssues',
-               'Get-SSCConfig', 'Get-SSCScanCentralSASTJob', 
-               'Get-SSCScanCentralSASTJobs', 'Get-SSCToken', 
-               'New-SSCApplicationVersionObject', 'New-SSCAttributeObject', 
-               'Remove-SSCApplicationVersion', 'Send-SSCApi', 'Set-SSCConfig', 
-               'Test-SSCApplication', 'Test-SSCApplicationVersion', 
-               'Update-SSCApplicationVersion')
+               'Get-SSCApplicationVersionId', 'Get-SSCApplicationVersionIssues', 
+               'Get-SSCApplicationVersions', 'Get-SSCConfig', 
+               'Get-SSCScanCentralSASTJob', 'Get-SSCScanCentralSASTJobs', 
+               'Get-SSCToken', 'New-SSCApplicationVersionObject', 
+               'New-SSCAttributeObject', 'Remove-SSCApplicationVersion', 
+               'Send-SSCApi', 'Set-SSCConfig', 'Test-SSCApplication', 
+               'Test-SSCApplicationVersion', 'Update-SSCApplicationVersion')
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()

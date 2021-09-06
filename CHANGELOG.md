@@ -12,6 +12,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 
+## [1.0.0.2] - 2020-09-06
+
+### Added
+
+- Get ScanCentral SAST Job status (Get-SSCScanCentralSASJob, Get-SSCScanCentralSASJobs)
+- Get Application Version Artifacts (Get-SSCApplicationVersionArtifacts)
+- Approve an application version artifact (Approve-SSCArtifacts)
+
+### Changed
+
+- None
+
+### Removed
+
+- None
+
 ## [1.0.0.1] - 2020-09-01
 
 ### Added
